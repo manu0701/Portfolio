@@ -301,20 +301,20 @@
                 </div>
 
                     <!-- <div class="col-md-6 col-lg-4 product uxui new">
-                                                                                                                                                                                                                                <div class="portfolio-item">
-                                                                                                                                                                                                                                    <img src="assets/imgs/portfolio/tjc.jpg" class="img-fluid w-100"
-                                                                                                                                                                                                                                        alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                                                                                                                                                                                                                                    <div class="content-holder">
-                                                                                                                                                                                                                                        <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
-                                                                                                                                                                                                                                        <a href="./pages/tjc.html">
-                                                                                                                                                                                                                                            <div class="text-holder">
-                                                                                                                                                                                                                                                <h6 class="title project-text">The Joint Commission</h6>
-                                                                                                                                                                                                                                                <p class="subtitle project-text">Product Designer for The Joint Commission on E-App
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/portfolio/tjc.jpg" class="img-fluid w-100"
+                            alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                            <a href="./pages/tjc.html">
+                                <div class="text-holder">
+                                    <h6 class="title project-text">The Joint Commission</h6>
+                                    <p class="subtitle project-text">Product Designer for The Joint Commission on E-App
                                                                                                                                                                                                                                                     Submission From for Healthcare Institutions</p>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                        </a>
-                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                </div>
+                                </div>
+                                </a>
+                                </div>
+                                </div>
                     </div> -->
 
                 <div class="col-md-6 col-lg-4 research new">
@@ -628,32 +628,36 @@
                     <p class="mb-4">+ 54-2926-400520</p>
 
                     <h6 class="mb-0">Address</h6>
-                    <p class="mb-4">Caballito, Buenos Aires, Argentina</p>
+                    <p class="mb-4">Senillosa, 292, Buenos Aires, Argentina</p>
 
                     <h6 class="mb-0">Email</h6>
                     <p class="mb-0">manu.balquinto@gmail.com</p>
                     <p></p>
                 </div>
                 <div class="col-md-7 mb-5">
-                    <form>
+                    <form id="" action="https://formspree.io/f/xpwzaeyg" method="POST">
                         <h4 class="mb-4">Got something in mind? Contact me!</h4>
                         <div class="form-row">
                             <div class="form-group col-sm-4">
+                                <label>
                                 <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name"
-                                    placeholder="Name">
+                                    placeholder="Name" id="name" required></label>
                             </div>
                             <div class="form-group col-sm-4">
+                                <label>
                                 <input type="email" class="form-control text-white rounded-0 bg-transparent"
-                                    name="Email" placeholder="Email">
+                                    name="Email" placeholder="Email" id="email" required></label>
                             </div>
                             <div class="form-group col-sm-4">
+                                <label>
                                 <input type="text" class="form-control text-white rounded-0 bg-transparent"
-                                    name="subject" placeholder="Subject">
+                                    name="subject" id="subject" placeholder="Subject"></label>
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="message" id="" cols="30" rows="4"
+                                <label>
+                                    <textarea name="message" id="message" cols="30" rows="4"
                                     class="form-control text-white rounded-0 bg-transparent"
-                                    placeholder="Message"></textarea>
+                                    placeholder="Message"></textarea></label>
 
                             </div>
                             <div class="form-group col-12 mb-0">
@@ -666,6 +670,7 @@
 
         </div>
     </section>
+
 
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
