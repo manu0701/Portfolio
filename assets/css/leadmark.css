@@ -11215,7 +11215,7 @@ textarea.form-control {
 
 .navbar .nav-link {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navbar.custom-navbar {
@@ -11761,4 +11761,13 @@ textarea.form-control {
 
 .alert {
   font-family: "Merriweather Sans", sans-serif;
+}
+.title {
+  font-family: "Kanit", sans-serif;
+
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+
 }
