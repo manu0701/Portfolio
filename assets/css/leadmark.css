@@ -11771,3 +11771,22 @@ textarea.form-control {
   font-family: "Kanit", sans-serif;
 
 }
+@media (min-width: 1200px) {
+  .ex-cards-1 .card {
+    width: 336px;
+  }
+
+
+  @media (min-width: 992px) {
+    .ex-cards-1 .card {
+      display: inline-block;
+      width: 296px;
+      vertical-align: top;
+    }
+  }
+}
+
+.ex-cards-1 .card {
+  border: none;
+  background-color: transparent;
+}
