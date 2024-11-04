@@ -11790,3 +11790,7 @@ textarea.form-control {
   border: none;
   background-color: transparent;
 }
+.cv-button {
+  background-color: transparent;
+  color: ##ff6e42;
+}
