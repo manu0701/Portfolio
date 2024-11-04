@@ -11792,5 +11792,9 @@ textarea.form-control {
 }
 .cv-button {
   background-color: transparent;
-  color: ##ff6e42;
+  color: #ff6e42;
+  }
+  
+  .cv-button:hover {
+    color: white;
 }
